@@ -85,7 +85,7 @@ template = """
         <h2>{{ value.title }}</h2>
         <ul>
             {% for detail in value.list %}
-            <li><a href="https://www.google.com/search?q={{ detail.keyword }}&source=lnms&tbm=isch">{{ detail.name }}</a></li>
+            <li><a href="https://www.google.com/search?q={{ detail.keyword }}&source=lnms&tbm=isch" target="_blank">{{ detail.name }}</a></li>
             {% endfor %}
         </ul>
         {% endfor %}
