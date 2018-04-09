@@ -92,7 +92,6 @@ template = """
         </body>
         </html>"""
 temp = jinja2.Template(template)
-print "plants:"
 
 pagefile = open('plants.html', 'w+')
 pagefile.write(temp.render(data))
